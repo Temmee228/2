@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <style>
+        button {
+            color: white; background-color: gray; font-style: italic;
+        }
+        #dis {
+            font-size: 20px;
+        }
+        input:checked + #box1 {
+            background: darkorchid;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p><textarea name="comment"></textarea></p>
+        <button>Button</button>
+        <p><select>
+            <option>Doritos</option>
+            <option>lays</option>
+            <option>Московский картофель</option>
+        </select>
+        </p>
+        <input id="dis" type="text" placeholder="Подсказка" disabled/>
+        <p>
+            <input id="box" type="checkbox">
+            <label id="box1" for="box">не жми на меня</label>
+        </p>
+    </form>
+</body>
+</html>
